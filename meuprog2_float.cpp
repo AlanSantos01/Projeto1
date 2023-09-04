@@ -11,10 +11,10 @@ int main(void){
     cin >> numero2;
 
 
-    cout << "Soma: " << numero1 + numero2 << endl;
-    cout << "Subtracao: " << numero1 - numero2 << endl;
-    cout << "Multiplicacao: " << numero1 * numero2 << endl;
-    cout << "Divisao: " << numero1 / numero2 << endl;
+    cout << fixed<<setprecision(1) << "Soma: " << numero1 + numero2 << endl;
+    cout << fixed<<setprecision(1) << "Subtracao: " << numero1 - numero2 << endl;
+    cout << fixed<<setprecision(1) << "Multiplicacao: " << numero1 * numero2 << endl;
+    cout << fixed<<setprecision(1) << "Divisao: " << numero1 / numero2 << endl;
 
     return 0;
 }
